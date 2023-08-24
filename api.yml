@@ -1,0 +1,29 @@
+# MT - Generate code using go-swagger
+
+swagger: '2.0'
+
+info:
+  title: OpeinAPI specs for test project
+  version: '1.0'
+  
+tags: 
+  - name: pizzas
+    description: operations about pizzas
+    
+basePath: /v1 
+
+paths:
+  /pizzas:
+    get:
+      tags:
+        - pizzas
+        
+      summary: Get all the pizzas
+      responses:
+        200:
+          description: Success
+        400: 
+          description: Invalid request
+        default:
+          description: Error
+        
