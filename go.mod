@@ -1,4 +1,4 @@
-module github.com/your-username/project
+module github.com/manju4682/project
 
 go 1.20
 

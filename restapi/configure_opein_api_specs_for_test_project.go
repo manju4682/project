@@ -10,8 +10,8 @@ import (
 	"github.com/go-openapi/runtime"
 	"github.com/go-openapi/runtime/middleware"
 
-	"github.com/your-username/project/restapi/operations"
-	"github.com/your-username/project/restapi/operations/pizzas"
+	"github.com/manju4682/project/restapi/operations"
+	"github.com/manju4682/project/restapi/operations/pizzas"
 )
 
 //go:generate swagger generate server --target ../../project --name OpeinAPISpecsForTestProject --spec ../api.yml --principal interface{}

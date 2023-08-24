@@ -19,7 +19,7 @@ import (
 	"github.com/go-openapi/strfmt"
 	"github.com/go-openapi/swag"
 
-	"github.com/your-username/project/restapi/operations/pizzas"
+	"github.com/manju4682/project/restapi/operations/pizzas"
 )
 
 // NewOpeinAPISpecsForTestProjectAPI creates a new OpeinAPISpecsForTestProject instance
